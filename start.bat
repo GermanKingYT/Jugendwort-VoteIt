@@ -1,0 +1,1 @@
+java -jar Jugendwort-VoteIt.jar
