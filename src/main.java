@@ -18,8 +18,7 @@ public class main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("How often should I call the Vote each thread?");
-		String s = br.readLine();
-		often = Integer.parseInt(s);
+		often = Integer.parseInt(br.readLine());
 		System.out.println("How many Threads?");
 		int s2 = Integer.parseInt(br.readLine());
 		max = often * s2;
