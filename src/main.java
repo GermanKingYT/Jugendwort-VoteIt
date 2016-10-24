@@ -19,13 +19,6 @@ public class main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("How often should I call the Vote each thread?");
 		String s = br.readLine();
-		try
-		{
-			int i = Integer.parseInt(s);
-		} catch (Exception ex)
-		{
-			System.out.println("This is not a integer you dumb fuck.");
-		}
 		often = Integer.parseInt(s);
 		System.out.println("How many Threads?");
 		int s2 = Integer.parseInt(br.readLine());
